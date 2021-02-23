@@ -1,8 +1,10 @@
 # Thompson Sampling
 
+### Dataset
 The dataset consists of 10000 rows and 10 columns that represent different ads. We're going to show ads to each of these users.
 And because this dataset is a simulation Well we know for each of them on which ad they're going to click.
 
+### What is Thompson Sampling?
 Thompson Sampling is an algorithm for choosing the actions that address the exploration-exploitation dilemma in multi-armed bandit problem.
 Actions are performed several times and are called exploration. 
 It uses training information that evaluates the actions taken rather than instructs by giving correct actions. 
